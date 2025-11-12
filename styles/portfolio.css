@@ -276,16 +276,42 @@ footer input[type="text"],[type="email"],textarea{
     font-size: 18px;
     padding: 18px;
     }
+
+    .header{
+    background-image: none;
+    }    
+    .banner{
+        margin: 20px;
+    }
+
+    .banner-pro-pic{
+        width: 90%;
+    }
+
+    .btns{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 70%;
+        align-items: center;
+    }
     
     .skills-container, 
     .resume-container, 
     .about-items,
+    .banner,
+    nav,
+    nav > ul,
     footer{
     flex-direction: column;
     }
-    /* .about{
-    margin-top: 15px;
-    } */
+    nav > ul{
+        gap: 10px;
+        text-align: center;
+    }
+    nav > ul > li{
+        width: 80%;
+    }
 
     footer, .about{
         padding: 15px;
